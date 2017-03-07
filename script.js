@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	//$(".personalTable").hide();
+	$(".personalTable").hide();
 
 	function slider() {
     	var currentSlide = $(".active-slide");
