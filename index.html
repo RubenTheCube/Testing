@@ -1,10 +1,225 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 		<link rel = "stylesheet" type = "text/css" href = "style.css"/>
-		<script type = "text/javascript" src = "script.js"></script>		
+		<script type = "text/javascript" src = "script.js"></script>
+		
+		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Oswald|Rubik|Catamaran" rel="stylesheet">
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8"/>
 	</head>
-	<body>
-		<p>Hemsidan håller på att uppdateras. Du kan kontakta oss på heftyfixuf@gmail.com hejeijiej</p>
+
+	<title>Hefty Fix 3</title>
+
+	<body class="body">
+
+		<div class="top-bar"></div>
+
+		<!--<div class="container-fluid header">
+			<div class="row">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-2">
+					<img class="hefty-stor" src="bilder/heftystorMOD.png">
+				</div>
+				<div class="col-lg-5">
+					<img class="main-pic" src="bilder/iphone.jpg">
+				</div>
+				<div class="col-lg-3">
+					<img class="hefty-stor" src="bilder/sugru-logo.png">
+				</div>
+			</div>			
+		</div>-->
+			
+		<div class="displayContainer">
+		<ul class = "mainDisplay">
+			<li class = "slide active-slide"><img class="hefty-stor" src = "bilder/heftystorMOD.png"></li>
+			<li class = "slide"><img src = "bilder/iphone.jpg"></li>
+			<li class = "slide"><img src = "bilder/cable_repair_guide.jpg"></li>
+		</ul>
+		</div>
+
+		<div class="container-fluid top-con">
+  			<div class="row">
+  				<div class="col-lg-1 col-md-3"></div>
+  				<div class="col-lg-2 col-md-3">
+			      	<p class="title">Vad är Sugru?</p>
+			      	<p class="description gray-back">Sugru är en flexibel och vattentät produkt som tål både kyla som värme (-50° till 180°), fäster på de flesta material och funkar lika bra i inomhus samt utomhusbruk.</p>
+			    </div>
+			    <div class="col-lg-4 col-md-3">
+			      	<img class="pic-big" src="bilder/cable_repair_guide.jpg">
+			    </div>
+			    <div class="col-lg-2 col-md-3">
+			      	<p class="title anv-title">Användningsområden</p>
+			      	<p class="description gray-back">Sugrus unika egenskaper gör att man enkelt kan reparera, fixa eller utveckla föremå.<br><br>Här är ett exempel på en vandringsko som lagats av röd sugru.</p>
+			    </div>
+			    <div class="col-lg-3 col-md-3">
+			      	<img class="pic-big" src="bilder/sealed_hiking_boot.jpg">
+			    </div>
+  			</div>
+  			<div class="row space-top">
+  				<div class="col-lg-1"></div>
+  				<div class="col-lg-2">
+			      	<p class="title">Vilka är vi?</p>
+			      	<p class="description gray-back">Vi på HeftyFixUF är en grupp av sex ungdomar med mål att förenkla och underlätta din vardag. Vi består av </p><p id="clickme" class="gray-back">Läs mer här </p>
+			      	
+			    </div>
+			    <div class="col-lg-4">
+			      	<img class="pic-bigest" src="bilder/group3.jpg">
+			    </div>
+			    <div class="col-lg-2">
+			      	<p class="title">Nyheter</p>
+			      	<p class="description gray-back">Hej alla HeftyFixare! Vi har börjat måla vår logga inför UF-mässan den 13 mars!<br><br> Hoppas vi ses då!</p>
+			     </div>
+			     <div class="col-lg-3">
+			      	<img class="pic-big" src="bilder/Nyheter.jpg">
+			    </div>
+  			</div>
+  		</div>
+  		<div class="container-fluid personalTable">
+  			<div class="row">
+  				<div class="col-lg-1"></div><div class="divider col-lg-10"></div><div class="col-lg-1"></div>
+  			</div>
+			<div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-3"><img src="bilder/PersonalBilder/Alla2.jpg"></div>
+			   	<div class="col-lg-7 gray-back"><br>
+			   	<span class="bold">Alexandra Olsson</span> är vår verkställande direktör eftersom hon naturligt faller in i den ledande rollen. Hon är en person som är noga med att ha en helhetsbild av allt som sker inom företaget men även anser motivationen för alla inom företaget som en prioritet. Hon är mycket noga med att allt arbete skall utföras rätt och hennes perfektionism ser vi som en positiv egenskap. Med hennes ledarinstinkt, starka drivkraft och positiva inställning var det ingen tvekan på att hon skulle bli vår företagsledare genom detta år.
+			   		<br><br><br>
+			   	<span class="bold">Henri Björk</span> är företagets ekonomiansvarig då han har ett stort intresse för företagsekonomi och ett sinne för siffror vilket resulterar i att han passar perfekt för rollen som ekonomiansvarig. Inom hans uppdrag ingår arbetsuppgifter som prissättning av produkten, bokföring, budget och fakturering till våra kunder. Han har även en mycket god översikt över företagets ekonomi och alla dess aspekter.
+			   		<br><br><br>
+			   	<span class="bold">Caroline Ericson</span> är vår försäljningsansvarig därför att hon är en naturbegåvning inom försäljning. Hennes starka vilja, driv, egenskaper och målmedvetenhet gör att hon är den ytterst lämpliga för detta ansvarsområde. Det var en självklarhet att hon skulle bli företagets försäljningsansvarig då hon följer ett magnifikt ansvar över bokning och planering av försäljningstillfällen, utvärdering av de bästa försäljnings-kanalerna samt utformning och utveckling av försäljningsargument.
+			   		<br><br><br>
+			   	<span class="bold">Ludvig Lindquist</span> är företagets inköpsansvarig eftersom han, tillsammans med vår ekonomiansvarig, ansvarar för de inköp vi gör till företaget såsom produkter och förpackningar samt annan utrustning. Hans arbete handlar om mycket mer än att endast köpa in olika ting till företaget. Ludvig följer sitt ansvar på en mycket bra nivå och ser till att inköp som sker är gott för företaget och dess framtid.
+			   		<br><br><br>
+			   	<span class="bold">Anton Schmidt</span> blev vår marknadsföringsansvarig på grund av att han har en hel del marknadsföring i blodet och har alltid förslag på hur vi kan utveckla oss inom marknadsföringen i framtiden. Antons ansvar handlar mestadels om en god koll på hur marknaden ser ut samt vad våra kunder efterfrågar och hur vi då kan nå dem på bästa sätt.
+			   		<br><br><br>
+			   	<span class="bold">Martin Isaksson</span> har ett gott sinne för alla människor han möter och har alltid ett glatt humör uppe. Därför sköter han jobbet som HeftyFixs personalansvarige galant. Han ansvarar för att se till att vi alla inom företaget har en go stämning mot varandra och lyckas alltid hjälpa alla inom företaget på ett eller annat sätt. 
+			   		<br>
+			   	<span id="clickme2">Läs mindre</span>
+			   	</div>
+			</div>
+
+			<div class="row">
+  				<div class="col-lg-1"></div><div class="divider col-lg-10"></div><div class="col-lg-1"></div>
+  			</div>
+			<!--<div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-2"><img src="bilder/PersonalBilder/Henri2.JPG"></div>
+				<div class="col-lg-5">här ska det stå en massa text om en person</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-2"><img src="bilder/PersonalBilder/Caroline2.JPG"></div>
+				<div class="col-lg-5">här ska det stå en massa text om en person</div>
+			</div>-->
+  		</div>
+
+
+  		<div class="container-fluid">
+  			<div class="row space-top">
+  				<div class="col-lg-2"></div>
+  				<!--<div class="col-lg-4">
+	  				<form id="form1" action="kundvagn.php" method="post">
+						<p class="title">Skicka en beställning!</p>
+						<fieldset>
+						<legend></legend>
+							<ul>
+								<li>
+									<label>Förnamn: </label>
+									<input id="n" type="text" name="fnamn" required> 
+								</li>
+								<li>
+									<label>Efternamn: </label>
+									<input id="n" type="text" name="enamn" required> 
+								</li>
+								<li>
+									<label>Epost: </label>
+									<input id="e" type="text" name="epost" required> 
+								</li>
+								<li>
+									<label>Antal 4 pack (90kr): </label>
+									<input type="number" name="quantity" min="1" max="20" required>
+								</li>
+								<li>
+									<label>Antal 8 pack (150kr): </label>
+									<input type="number" name="quantity2" min="1" max="20" required>
+								</li>
+								<li>
+									<label>Medelande: </label>
+									<textarea  name="medelande" maxlength="1000" cols="25" rows="6"></textarea>
+								</li>
+							</ul>
+							<input class="knapp" type="submit" value="Skicka">
+						</fieldset>
+					</form>
+  				</div>-->
+  				<div class="col-lg-3">
+  					<p class="title">Prislista</p>
+  					
+  					<table>
+  						<tbody>
+  							<tr>
+  								<th>Antal</th>
+  								<th>Färger</th>
+  								<th>Pris</th>
+  							</tr>
+  							<tr>
+  								<td>4 st</td>
+  								<td>Fler färgade*</td>
+  								<td>90kr</td>
+  							</tr>
+  							<tr>
+  								<td>4 st</td>
+  								<td>Svart och vit</td>
+  								<td>90Kr</td>
+  							</tr>
+  							<tr>
+  								<td>8 st</td>
+  								<td>Fler färgade*</td>
+  								<td>150kr</td>
+  							</tr>
+  							<tr>
+  								<td>8 st</td>
+  								<td>Svart och vit</td>
+  								<td>150Kr</td>
+  							</tr>
+  						</tbody>
+  					</table>
+  					<div class="description gray-back undertext"><p>Beställningar görs till vår mail: <span class="bold">heftyfixuf@gmail.com</span> <br><br> *Innehåller: Blå, röd, gul och svart/vit</p></div>
+  				</div>
+  				<div class="col-lg-5">
+  					<p class="title">Följ oss på sociala medier!</p>
+  					
+  					<div class="cirkel-container">
+  						<p class="description text-center">Vi finns på facebook och instagram. Följ oss här (Clicka på cirklarna för att komma till våran facebook eller instagramsida): </p>
+						<a href="https://www.facebook.com/pg/heftyfixuf/about/?entry_point=page_nav_about_item&ref=page_internal"><img class="cirkel" src="bilder/fb2.png"></a>
+						<a href="https://www.instagram.com/heftyfixuf/"><img class="cirkel" src="bilder/in2.png"></a>
+  					</div>
+  					
+  				</div>
+  			</div>		
+		</div>
+
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3"></div>
+					<div class="col-lg-3">
+						<p>Hemsida skapad av Robert Sjöberg<br>Kontakt: robertsjob@outlook.com</p>
+					</div>
+					<div class="col-lg-1"></div>
+					<div class="col-lg-2">
+						<a href="https://sugru.com/">Sugrus offeciella sida</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
+
+
