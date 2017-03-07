@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	$(".personalTable").hide();
-	alert("Hemsidan håller på att oprimeras, den kan se konstig ut under denna tid. Vi ber om ursäkt för detta.");
+	alert("Hemsidan håller på att optimeras, den kan se konstig ut under denna tid. Vi ber om ursäkt för detta.");
 	
 	function slider() {
     	var currentSlide = $(".active-slide");
