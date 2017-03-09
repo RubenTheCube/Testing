@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$(".personalTable").hide();
 	alert("Hemsidan håller på att optimeras, den kan se konstig ut under denna tid. Vi ber om ursäkt för detta.");
 	
-	function slider() {
+	/*function slider() {
     	var currentSlide = $(".active-slide");
    		var nextSlide = currentSlide.next();
 		if (nextSlide.length == 0){
@@ -14,7 +14,7 @@ $(document).ready(function() {
 	}
 
 	var timer = setInterval(slider, 6000);
-
+	*/
 
 	$("#clickme").click(function(){
 		$(".personalTable").toggle(1000);
